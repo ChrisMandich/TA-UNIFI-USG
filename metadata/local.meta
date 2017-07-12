@@ -1,0 +1,61 @@
+[app/ui]
+version = 6.6.1
+modtime = 1499875797.494282000
+
+[app/launcher]
+version = 6.6.1
+modtime = 1499875797.498407000
+
+[props/usg%3Anetfilter]
+owner = admin
+version = 6.6.1
+modtime = 1499874222.626846000
+
+[indexes/network]
+owner = admin
+version = 6.6.1
+modtime = 1499739635.940458000
+
+[props/usg%3Anetfilter/EVAL-vendor_product]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499826683.960713000
+
+[props/usg%3Anetfilter/FIELDALIAS-cim_unifi_netfilter_alias]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499875173.923965000
+
+[props/usg%3Anetfilter/REPORT-usg_netfilter_flags]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499827131.965954000
+
+[props/usg%3Anetfilter/REPORT-mac_address]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499827140.130908000
+
+[inputs/monitor%3A%2F%2F%2Ftest_log%2Fsyslog_test%2Fmessages]
+owner = admin
+version = 6.6.1
+modtime = 1499875073.884146000
+
+[props/usg%3Anetfilter/FIELDALIAS-src_dest_ip]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499875221.700837000
+
+[app/package/check_for_updates]
+version = 6.6.1
+modtime = 1499875797.500502000
