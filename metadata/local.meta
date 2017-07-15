@@ -59,3 +59,38 @@ modtime = 1499875221.700837000
 [app/package/check_for_updates]
 version = 6.6.1
 modtime = 1499875797.500502000
+
+[eventtypes/CIM_Network_Traffic_DM]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499877856.908287000
+
+[tags/eventtype%3DCIM_Network_Traffic_DM]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1499877856.914554000
+
+[props/usg%3Anetfilter/EVAL-rule]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1500141607.627684000
+
+[props/usg%3Anetfilter/EVAL-action]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1500141613.430932000
+
+[props/usg%3Anetfilter/EVAL-direction]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.6.1
+modtime = 1500141748.491512000
