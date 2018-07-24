@@ -28,7 +28,7 @@ def getLastEventID(file_name):
 
     return last_event_id
 
-def setLastEventID(event_id):
+def setLastEventID(file_name, event_id):
     try:
         pickle.dump(event_id, open("save.p", "wb"))
     except:
@@ -146,7 +146,7 @@ def main():
         # Check to see if Event Request was Successful
         if r_response.status_code == 200:
             printEvents(event_data, last_event_id, session, base_url, site)
-            setLastEventID(event_data[0]['_id'])  
+            setLastEventID(pickle_file_name, event_data[0]['_id'])  
         else:
             printJSONError("Event Request Failure, Status Code:%s" % r_response.status_code)
     else:
