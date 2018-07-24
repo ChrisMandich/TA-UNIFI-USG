@@ -113,8 +113,9 @@ def printEvents(event_data, last_event_id,  session, base_url, site):
             print json.dumps(event)
 
 def printJSONError(Error_Details):
+    error_time = time.strftime("%FT%R:%SZ",time.gmtime())
     error = {
-        'time': int(time.time()),
+        'datetime': error_time,
         'type': 'error',
         'details': Error_Details
     }
