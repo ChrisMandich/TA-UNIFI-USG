@@ -1,4 +1,4 @@
 # Ignore Files # 
 bin/config.json
 bin/save.p
-local/
+local/*
