@@ -2,4 +2,4 @@
 bin/config.json
 bin/save.p
 metadata/local.meta
-local/*
+local/*.conf
