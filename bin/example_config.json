@@ -1,6 +1,6 @@
 {
     "username":"api",
     "password":"supersecret",
-    "base_url":"https://controller.unifi.com.:8443",
+    "base_url":"https://controller.unifi.com:8443",
     "site":"default"
 }
