@@ -1,0 +1,4 @@
+/var/log/syslog/unifi/*/*/*.log {
+    daily
+    rotate 5
+}

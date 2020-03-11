@@ -117,3 +117,12 @@ export = system
 owner = admin
 version = 7.0.2
 modtime = 1532397416.712383000
+
+[indexes/unifi]
+owner = admin
+version = 8.0.0
+modtime = 1572681869.392146000
+
+[props/unifi%3Anetfilter]
+version = 8.0.0
+modtime = 1578720460.888455000
